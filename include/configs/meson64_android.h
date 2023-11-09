@@ -109,7 +109,7 @@
 		"setenv dtb_index 2;" \
 	"elif test $board_name = vim3; then " \
 		"echo \"  Reading DTB for vim3...\"; " \
-		"setenv dtb_index 3;" \
+		"setenv dtb_index 0;" \
 	"else " \
 		"echo Error: Android boot is not supported for $board_name; " \
 		"exit; " \
@@ -128,7 +128,7 @@
 		"setenv dtbo_index 2;" \
 	"elif test $board_name = vim3; then " \
 		"echo \"  Reading DTBO for vim3...\"; " \
-		"setenv dtbo_index 3;" \
+		"setenv dtbo_index 0;" \
 	"else " \
 		"echo Error: Android boot is not supported for $board_name; " \
 		"exit; " \
